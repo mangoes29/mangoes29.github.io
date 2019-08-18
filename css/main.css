@@ -15,15 +15,23 @@ a {
     color: #f00;
 }
 
+h2 ~ p {
+    font-size: 0.8em;
+    font-style: italic;
+    margin: 1em auto 0;
+    max-width: 70%;
+    text-align: center;
+}
+
 /* HEADER STYLES */
 
 .header-nav {
     float: right;
+    padding: 5.5vh 60px 0 0;
 }
 
 .header-nav > li {
     display: inline-block;
-    padding: 5.5vh 60px 0 0;
     margin-left: 1em;
 }
 
@@ -35,13 +43,36 @@ a {
     text-transform: uppercase;
 }
 
+.header-nav a:hover,
+.header-nav a:active {
+    color: #ed6e2f;
+}
+
+.header-logo:hover ,
+.header-logo:active {
+    opacity: 0.5;
+}
+
+.header-nav > li:first-child a {
+    color: #ed6e2f;
+}
+
+.header-nav > li:first-child a:hover {
+    color: #000;
+}
+
+.header-nav > li ~ li {
+    border-left: 1px solid rgba(0, 0, 0, 0.3);
+    padding-left: 1em;
+}
+
+
 /* HERO STYLES */
 
 .full-hero {
     background-color: #c7dbfc;
     height: 50vh;
 }
-
 
 /* SOCIAL STYLES */
 
@@ -72,6 +103,11 @@ a {
 .social-list>li {
     display: inline-block;
     margin: 0 0.5em;
+}
+
+.social-link:hover,
+.social-link:active {
+    background-color: #ed6e2f;
 }
 
 /* BIO STYLES */
