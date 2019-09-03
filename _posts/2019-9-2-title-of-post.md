@@ -5,6 +5,7 @@ postHero: /images/small/slide1.jpg
 author: Ben
 authorTwitter: https://twitter.com/_BenGavin
 gravatar: /images/small/slide1.jpg
+permalink: /post1
 postFooter: Additional information, and maybe a <a href="#">link or two</a>
 ---
 
