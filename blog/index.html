@@ -1,5 +1,9 @@
 --- 
 layout: default 
+title: Dangerous Blog
+og-title: Original Gangsta
+description: A dangerous site deserves a dangerous blog.
+og-description: “If it’s flipping hamburgers at McDonald’s, be the best hamburger flipper in the world. Whatever it is you do you have to master your craft.” – Snoop Dogg
 
 ---
 
@@ -16,7 +20,7 @@ layout: default
                     <h2><a href="{{ post.url }}">I am the title of an article</a></h2>
                     <div class="post-byline">
                         <img src="{{ post.gravatar }}" />
-                        <a href="{{ post.authorTwitter }}" class="social-link">Tw</a> by: {{ post.author }}
+                        <a href="{{ post.authorTwitter }}" class="social-link"><i class="fab fa-twitter"></i></a> by: {{ post.author }}
                         <span> - {{ post.date | date: '%B %d, %Y' }}</span>
                     </div>
                 </header>
